@@ -1,4 +1,4 @@
-DefaultTrace
+DefaultTrace11
 	sampling
 	callstack
 		stack: SpanEvent[]
