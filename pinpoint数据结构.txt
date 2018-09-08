@@ -1,0 +1,65 @@
+DefaultTrace
+	sampling
+	callstack
+		stack: SpanEvent[]
+		traceRoot
+		maxDepth
+		index
+		overflowIndex
+		sequence
+	closed
+	scopePool
+	span
+		timeRecording
+		traceRoot
+			traceId
+			localTransactionId
+			traceStartTime
+			shared
+				errorCode
+				loggingInfo
+				endPoint
+				rpc
+				threadId
+				statusCode
+		agentId
+		applicationName
+		agentStartTime
+		transactionId
+		spanId
+		parentSpanId
+		startTime
+		elapsed
+		rpc
+		serviceType
+		endPoint
+		remoteAddr
+		annotations: List<Annotation>
+			key
+			value
+		flag
+		err
+		spanEventList: List<SpanEvent>
+			spanId
+			sequence
+			startElapsed
+			rpc
+			serviceType
+			endPoint
+			annotations: List<Annotation>
+			depth
+			nextSpanId
+			destinationId
+			apiId
+			exceptionInfo
+			asyncId
+			nextAsyncId
+			asyncSequence
+		parentApplicationName
+		parentApplicationType
+		AcceptorHost
+		apiId
+		exceptionInfo
+		applicationServiceType
+		loggingTransactionInfo
+		version
